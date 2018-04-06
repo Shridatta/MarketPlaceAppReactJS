@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.secondPara{
+  border: solid 1px;
+  color: green;
+}
+.catchheader
+{
+  display: inline;
+}
+.firstPara{
+  border: solid 1px;
+  background-color: blue;
+  color:white;
+  width:82.35%;
+}
+
+.Inventorylayout
+{
+  border:solid 1px;
+  width: 257.33%;
+
+
+}
+
+.Headerlayout
+{
+  border:solid 1px;
+    width: 257.33%;
+    margin-right: 1500px;
+}
+
+
+.Orderlayout
+{
+  border:solid 1px;
+    width: 257.33%;
+}
+
+.divtop
+{
+  border: solid 1px;
+  text-align:center;
+  display: inline;
+  padding-left: 10%;
+  padding-right: 10%;
+  float: left;
+  width: 7.33%;
+  height: 600px;
+  overflow: scroll;
+
+}
+
+
+.Inventory
+{
+  border: solid 1px;
+  text-align:center;
+  padding-left: 10%;
+  display: inline;
+  padding-right: 10%;
+  float: left;
+  width: 7.33%;
+  height: 600px;
+}
+
+.list-of-fishes
+{
+  float: left;
+}
+
+.order-wrap
+{
+  border: solid 1px;
+  padding-left: 10%;
+  text-align:center;
+  padding-right: 10%;
+  display: inline;
+  float: left;
+  width: 7.33%;
+  height: 600px;
+  overflow: scroll;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.order li {
+  border-bottom: 1px solid #000;
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.4rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+ul.order li:hover button {
+  display: inline;
+}
+ul.order li button {
+  border: 0;
+  display: none;
+  line-height: 1;
+  padding: 0;
+}
+ul.order li.total {
+  font-weight: 600;
+  border-bottom: 3px solid #000;
+  border-top: 3px double #000;
+}
+ul.order li.unavailable {
+  text-decoration: line-through;
+  background: #f8d0d2;
+}
+ul.order li .price {
+  font-size: 1.2rem;
+}
+ul.order li span.count {
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+ul.order li span.count span {
+  display: inline-block;
+}
